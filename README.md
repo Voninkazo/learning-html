@@ -1,19 +1,21 @@
 # Learning-html
+
 The website will be broken up into the following sections:
-- [Elements](https://voninkazo.github.io/learning-html/)
 
-- [Rules](https://voninkazo.github.io/learning-html/)
+- [Rules](element-rules.html)
 
-- [Tips](https://voninkazo.github.io/learning-html/)
- 
-- [Pages](https://voninkazo.github.io/learning-html/)
+- [Tips](tips.html)
 
-- [List of HTML rules pages](https://voninkazo.github.io/learning-html/)
+- [Nesting rules page](nesting.html)
 
-- [Nesting rules page](https://voninkazo.github.io/learning-html/)
+- [Attribute rules page](rules.html)
 
-- [Attribute rules page](https://voninkazo.github.io/learning-html/)
+- [List of element page](elements.html)
 
-- [List of element page](https://voninkazo.github.io/learning-html/)
+- [Tips for writing HTML page](writing-tips.html)
 
-- [Tips for writing HTML page](https://voninkazo.github.io/learning-html/)
+Make sure that you are working on `master`, commit and then push. Once you are ready to publish your work, merge master on `gh-pages` and push.
+
+The website will be published on this URL
+
+[Link to the homepage](https://voninkazo.github.io/learning-html/)
