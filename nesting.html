@@ -2,56 +2,82 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width">
-    <title>
-        Learn how to nest elements properly
-    </title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width">
+  <title>
+    Learn how to nest elements properly
+  </title>
 </head>
 
 <body>
-    <header>
-        <h1>
-            Learn how to nest elements properly
-        </h1>
-    </header>
-    <main>
-        <article>
-            <header>
-                <ul>
-                    <li>
-                        <h3>
-                            Introduction
-                        </h3>
-                    </li>
-                </ul>
-            </header>
-            <p>
-                When you nest an element inside of another element, the nested element becomes a child of the parent
-                element. Many child element can be placed into a parent element making a sibling relationship among the
-                group of the nested children. If the parent element moves, the children will move automatically with it.
-                So we need to make sure that the child element is acceptable inside the parent element.
-            </p>
-        </article>
-        <article>
-            <header>
-                <ul>
-                    <li>
-                        <h3>
-                            Here are some tips that you should be aware of
-                        </h3>
-                    </li>
-                </ul>
-            </header>
-            <ol>
-                <li>
-                    <b>Don't do this</b>
-                    <blockquote>
-                        <code>
-                    </blockquote>
-                </li>
-            </ol>
-        </article>
-    </main>
+  <header>
+    <h1>
+      Learn how to nest elements properly
+    </h1>
+  </header>
+  <main>
+    <article>
+      <header>
+        <ul>
+          <li>
+            <h3>
+              Introduction
+            </h3>
+          </li>
+        </ul>
+      </header>
+      <p>
+        When you nest an element inside of another element, the nested element becomes a child of the parent
+        element. Many child element can be placed into a parent element making a sibling relationship among the
+        group of the nested children. If the parent element moves, the children will move automatically with it.
+        So we need to make sure that the child element is acceptable inside the parent element.
+      </p>
+    </article>
+    <article>
+      <header>
+        <ul>
+          <li>
+            <h3>
+              Here are some tips that you should be aware of
+            </h3>
+          </li>
+        </ul>
+      </header>
+      <ol>
+        <li>
+          <h4>
+            <u>Don't do this</u>
+          </h4>
+          <p>
+            <code>&lt;div&gt;</code>
+            <code>&lt;p&gt;</code>
+            Hello world.....
+            <code>&lt;/div&gt;</code>
+            <code>&lt;/p&gt;</code>
+          </p>
+        </li>
+        <li>
+          <h4>
+            <u>Do this instead</u>
+          </h4>
+          <p>
+            <code>&lt;div&gt;</code>
+            <code>&lt;p&gt;</code>
+            Hello world.....
+            <code>&lt;/p&gt;</code>
+            <code>&lt;/div&gt;</code>
+          </p>
+        </li>
+      </ol>
+    </article>
+  </main>
+  <footer>
+    <nav>
+      <a href="rules.html">
+        Go back to the previous page
+      </a>
+    </nav>
+  </footer>
 </body>
+
 </html>
